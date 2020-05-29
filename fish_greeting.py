@@ -17,15 +17,11 @@ try:
         #print(s.read())
     from setting import sourse as sourse
 
-    print(len(sourse))
-    print(sourse[len(sourse) -1])
+  
     if(sourse[len(sourse) -1] != "/"):
         sourse = sourse + "/"
         
-    print(sourse)
-
-
-
+  
     #sourse = "/home/klomszczyk/Aplication/fish_greeting/asci-picures/"
 
     # chose random picture
